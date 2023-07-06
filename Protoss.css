@@ -1,0 +1,133 @@
+*{
+    font-family:  Helvetica;
+    color: yellow;
+}
+
+html{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    width: 50%;
+    margin-left: auto;
+	margin-right: auto;
+
+}
+
+a button{
+    width: 100%;
+}
+
+h1{
+    width: 100%
+}
+
+.navigation img{
+    display: block;
+    width: 100%;
+}
+
+.navigation{
+    height: 1100px;
+    display: block;
+}
+
+
+.navigation  span{
+    top: 0;
+    right:0;
+    position: absolute;
+    width: 50%;
+   
+    background-color: black;
+    text-align: center;
+}
+
+button{
+	margin-left: auto;
+	margin-right: auto;
+
+    color: yellow;
+    background-color: black;
+    
+    border: solid 1px yellow;
+    border-radius:5px;
+    width: 50%;
+    height: 100px;
+
+    font-size:  40px;
+}
+
+.kreisring{
+    display: flex;
+    flex-wrap: nowrap;
+    margin:30px;
+}
+
+.kreis{
+    border: yellow solid 40px;
+    border-radius:50px;
+    margin-top: 10px;
+    border-color: black;
+}
+
+.kreisring:hover button{
+    background-color: yellow; 
+    color: black; 
+}
+
+.kreisring:hover .kreis{
+    border-color: yellow;
+}
+
+.inhalt{
+    width: 50%;
+    text-align:left;
+    
+    margin-left: auto;
+	margin-right: auto;
+}
+
+bigcon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    width: 50%;
+    float:left
+}
+
+.little{
+    width:50px;
+    height:50px;;
+    vertical-align: top;
+}
+
+.litter{
+    width:100%;
+    height: 200px;
+    margin-right: 20px;
+    border-left:yellow solid;
+}
+
+.little:hover {
+    width:200px;
+    height:200px;
+}
+
+.text {
+    width:50%;
+    float:left;
+}
+
+.littles{
+    width:50px;
+    height:50px;;
+    vertical-align: top;
+}
+
